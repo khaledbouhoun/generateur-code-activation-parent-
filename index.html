@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Parent Activation Code Generator - Local administrative utility for Quran education and school management system.">
+  <title>Parent Activation Code Generator | Admin Portal</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Cpath fill='%23159A78' d='M24 4L8 10v12c0 10.5 6.8 20.3 16 22 9.2-1.7 16-11.5 16-22V10L24 4z'/%3E%3Cpath fill='%230B132B' d='M24 13c-4.4 0-8 3.6-8 8 0 3.3 2 6.2 5 7.4V34h6v-5.6c3-1.2 5-4.1 5-7.4 0-4.4-3.6-8-8-8zm0 5a3 3 0 110 6 3 3 0 010-6z'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Subtle Islamic Geometric Background Watermark -->
+  <div class="geometric-bg-overlay" aria-hidden="true">
+    <svg class="bg-pattern" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <pattern id="islamic-star" width="100" height="100" patternUnits="userSpaceOnUse">
+          <g stroke="currentColor" stroke-width="0.75" fill="none" opacity="0.4">
+            <!-- 8-pointed star (Rub el Hizb motif) -->
+            <rect x="30" y="30" width="40" height="40" transform="rotate(0 50 50)" />
+            <rect x="30" y="30" width="40" height="40" transform="rotate(45 50 50)" />
+            <!-- Concentric octagonal radiating connections -->
+            <circle cx="50" cy="50" r="14" />
+            <line x1="50" y1="0" x2="50" y2="100" />
+            <line x1="0" y1="50" x2="100" y2="50" />
+            <line x1="0" y1="0" x2="100" y2="100" />
+            <line x1="100" y1="0" x2="0" y2="100" />
+            <!-- Corner diamonds -->
+            <polygon points="0,50 50,0 100,50 50,100" />
+          </g>
+        </pattern>
+      </defs>
+      <rect width="100%" height="100%" fill="url(#islamic-star)" />
+    </svg>
+  </div>
+
+  <main class="app-container">
+    <!-- Top Bar Controls -->
+    <header class="top-nav">
+      <div class="badge-admin">
+        <span class="badge-dot"></span>
+        <span>ADMIN TOOL</span>
+      </div>
+
+      <button id="themeToggleBtn" class="theme-toggle-btn" type="button" aria-label="Toggle light/dark theme" title="Toggle theme">
+        <!-- Sun Icon (shown in dark mode) -->
+        <svg class="theme-icon sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <circle cx="12" cy="12" r="5"></circle>
+          <line x1="12" y1="1" x2="12" y2="3"></line>
+          <line x1="12" y1="21" x2="12" y2="23"></line>
+          <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+          <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+          <line x1="1" y1="12" x2="3" y2="12"></line>
+          <line x1="21" y1="12" x2="23" y2="12"></line>
+          <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+          <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+        </svg>
+        <!-- Moon Icon (shown in light mode) -->
+        <svg class="theme-icon moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+        </svg>
+      </button>
+    </header>
+
+    <!-- Centered Card -->
+    <section class="card generator-card">
+      <!-- Card Branding & Logo -->
+      <div class="card-brand">
+        <div class="brand-emblem-wrap">
+          <div class="emblem-halo" aria-hidden="true"></div>
+          <!-- Custom SVG Emblem: Shield + Open Quran Book + Key/Security core -->
+          <svg class="brand-emblem" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="School Security Emblem">
+            <!-- Shield Base with Emerald Gradient -->
+            <path d="M32 6L11 14V30C11 43.5 20 55 32 58C44 55 53 43.5 53 30V14L32 6Z" fill="url(#shield-grad)" stroke="var(--emerald-accent)" stroke-width="1.5" stroke-linejoin="round"/>
+            <!-- Open Quran Book silhouette -->
+            <path d="M20 37C24.5 35 29 35.8 32 37.5C35 35.8 39.5 35 44 37V22C39.5 20.2 35 21 32 22.8C29 21 24.5 20.2 20 22V37Z" fill="var(--book-fill)" opacity="0.95"/>
+            <path d="M32 23V37.5" stroke="var(--teal-accent)" stroke-width="1.5" stroke-linecap="round"/>
+            <!-- Central Security Key Silhouette -->
+            <circle cx="32" cy="27.5" r="3.2" fill="var(--key-gold)" />
+            <path d="M32 30.7V34.5M32 32.5H34M32 34.2H33.5" stroke="var(--key-gold)" stroke-width="1.4" stroke-linecap="round"/>
+            <defs>
+              <linearGradient id="shield-grad" x1="11" y1="6" x2="53" y2="58" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#128C8C" stop-opacity="0.25"/>
+                <stop offset="1" stop-color="#159A78" stop-opacity="0.08"/>
+              </linearGradient>
+            </defs>
+          </svg>
+        </div>
+
+        <h1 class="card-title">Parent Activation Code</h1>
+        <p class="card-subtitle">Generate a secure activation code for a parent account</p>
+      </div>
+
+      <!-- Generator Form -->
+      <form id="generatorForm" class="generator-form" novalidate onsubmit="return false;">
+        <div class="form-group">
+          <div class="label-row">
+            <label for="parentIdInput" class="input-label">Parent ID</label>
+            <span class="required-indicator" title="Required">*</span>
+          </div>
+
+          <div class="input-wrapper">
+            <span class="input-icon" aria-hidden="true">
+              <!-- User / ID Card Icon -->
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                <circle cx="12" cy="7" r="4"></circle>
+              </svg>
+            </span>
+            <input
+              type="text"
+              id="parentIdInput"
+              name="parentId"
+              class="form-input"
+              placeholder="Enter the parent's real ID (e.g. 123456)"
+              autocomplete="off"
+              spellcheck="false"
+              autofocus
+              aria-describedby="parentIdHelp parentIdError"
+              aria-invalid="false"
+            />
+            <button
+              type="button"
+              id="clearInputBtn"
+              class="btn-input-clear hidden"
+              aria-label="Clear Parent ID input"
+              title="Clear input"
+            >
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="18" y1="6" x2="6" y2="18"></line>
+                <line x1="6" y1="6" x2="18" y2="18"></line>
+              </svg>
+            </button>
+          </div>
+
+          <div class="input-messages">
+            <p id="parentIdError" class="input-error hidden" role="alert"></p>
+            <p id="parentIdHelp" class="input-help">
+              Enter the real parent ID registered in the school system.
+            </p>
+          </div>
+        </div>
+
+        <!-- Action Controls -->
+        <div class="actions-row">
+          <button type="submit" id="generateBtn" class="btn btn-primary">
+            <!-- Key / Shield generation icon -->
+            <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M21 2l-2 2m-1.5 6.1L13 14.5l-2.5-2.5 2.5-2.5-1.4-1.4a5 5 0 1 0-4.2 8.4l8.6 8.6a1 1 0 0 0 1.4 0l4.2-4.2a1 1 0 0 0 0-1.4l-3-3z"></path>
+            </svg>
+            <span>Generate Activation Code</span>
+          </button>
+        </div>
+      </form>
+
+      <!-- Result Section (Revealed after generation) -->
+      <section id="resultSection" class="result-card hidden" aria-live="polite">
+        <div class="result-header">
+          <div class="result-status">
+            <span class="status-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+            </span>
+            <h2 class="result-title">Activation Code Generated</h2>
+          </div>
+          <span class="result-badge">READY TO SEND</span>
+        </div>
+
+        <!-- Main Display for Monospace Code -->
+        <div class="code-display-box">
+          <span class="code-label">ACTIVATION CODE</span>
+          <div class="code-token-wrapper">
+            <div id="formattedCode" class="code-token" dir="ltr" title="Generated activation code">
+              <!-- Dynamically populated formatted code -->
+            </div>
+          </div>
+        </div>
+
+        <!-- Verification Metadata Breakdown -->
+        <div class="parent-meta-grid">
+          <div class="meta-item">
+            <span class="meta-label">Parent ID</span>
+            <span id="metaParentId" class="meta-value ltr-text">—</span>
+          </div>
+          <div class="meta-item">
+            <span class="meta-label">Generated Code (Raw)</span>
+            <span id="metaRawCode" class="meta-value code-font ltr-text">—</span>
+          </div>
+        </div>
+
+        <!-- Result Action Buttons -->
+        <div class="result-actions">
+          <button type="button" id="copyCodeBtn" class="btn btn-emerald">
+            <svg class="btn-icon copy-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+              <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+            </svg>
+            <span class="btn-text">Copy Code</span>
+          </button>
+
+          <button type="button" id="clearBtn" class="btn btn-secondary">
+            <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M3 6h18"></path>
+              <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path>
+            </svg>
+            <span>Clear</span>
+          </button>
+        </div>
+      </section>
+
+      <!-- Security / Trust Notice -->
+      <footer class="card-security-notice">
+        <div class="security-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+            <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+          </svg>
+        </div>
+        <div class="security-text">
+          <strong>Private Administration Tool</strong>
+          <p>This generator runs entirely in your browser. No parent ID or activation code is sent to a server.</p>
+        </div>
+      </footer>
+    </section>
+
+    <!-- Global App Footer -->
+    <footer class="app-footer">
+      <p class="footer-system-title">Parent Management System • Activation Code Generator</p>
+      <p class="footer-security-pill">
+        <span class="status-indicator"></span>
+        Local Tool • No Data Sent
+      </p>
+    </footer>
+  </main>
+
+  <!-- Notification Toast -->
+  <aside id="toastNotification" class="toast" role="status" aria-live="polite" aria-atomic="true">
+    <div class="toast-content">
+      <svg class="toast-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <polyline points="20 6 9 17 4 12"></polyline>
+      </svg>
+      <span id="toastMessage" class="toast-message">Activation code copied</span>
+    </div>
+  </aside>
+
+  <script src="script.js"></script>
+</body>
+</html>
